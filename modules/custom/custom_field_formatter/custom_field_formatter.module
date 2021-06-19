@@ -1,0 +1,29 @@
+	<?php
+	use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+	use Drupal\Core\Entity\EntityInterface;
+	use Drupal\Core\Form\FormStateInterface;
+	use Drupal\node\NodeInterface;
+	use Drupal\Core\Routing\RouteMatchInterface;
+	use Drupal\views\ViewExecutable;
+	use Drupal\taxonomy\Entity\Term;
+	use Drupal\node\Entity\Node;
+	use Drupal\views\Views;
+    use Drupal\Core\Url;
+    use Symfony\Component\HttpFoundation\RedirectResponse;
+       
+	/**
+ * @file
+ * Defines simple YouTube formatter for the link field.
+ */  
+ 
+ /**
+ * Implements hook_theme().
+ */
+function custom_field_formatter_theme() {
+  return array(
+    'youtube_link_formatter' => array(
+      'variables' => array('url' => NULL),
+      'template' => 'youtube-link-formatter',
+    ),
+  );
+}

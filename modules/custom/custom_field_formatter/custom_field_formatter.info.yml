@@ -1,0 +1,13 @@
+name: Custom Field Formatter
+type: module
+description: Custom Field Formatter Functinality
+package: Custom Field Formatter
+# core: 8.x
+dependencies:
+  - field
+
+# Information added by Drupal.org packaging script on 2019-06-29
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'Custom Field Formatter'
+datestamp: 1561833488

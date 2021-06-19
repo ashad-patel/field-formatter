@@ -1,0 +1,13 @@
+name: 'Field Formatter Filter Test Content Type'
+type: module
+description: 'Provides a scaffold content type configured to use the FFF.'
+package: Testing
+core_version_requirement: ^8.8 || ^9
+dependencies:
+  - field_formatter_filter:field_formatter_filter
+  - drupal:node
+
+# Information added by Drupal.org packaging script on 2021-05-13
+version: '2.0.0'
+project: 'field_formatter_filter'
+datestamp: 1620873813

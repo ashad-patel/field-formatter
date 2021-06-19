@@ -1,0 +1,12 @@
+name: String Field Formatter
+type: module
+description: Adds formatters to plain string type field.
+core_version_requirement: ^8 || ^9
+core: 8.x
+dependencies:
+  - drupal:text
+
+# Information added by Drupal.org packaging script on 2020-11-06
+version: '2.0.0'
+project: 'string_field_formatter'
+datestamp: 1604697751

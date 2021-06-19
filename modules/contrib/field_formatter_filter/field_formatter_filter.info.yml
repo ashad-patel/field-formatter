@@ -1,0 +1,12 @@
+name: Field Formatter Filter
+type: module
+description: Allows different text format filters to be applied as part of the field formatter settings for text fields.
+core_version_requirement: ^8.8 || ^9
+package: Field Formatters
+dependencies:
+  - drupal:filter
+
+# Information added by Drupal.org packaging script on 2021-05-13
+version: '2.0.0'
+project: 'field_formatter_filter'
+datestamp: 1620873813

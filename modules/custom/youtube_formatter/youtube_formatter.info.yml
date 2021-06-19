@@ -1,0 +1,7 @@
+name: YouTube Formatter
+type: module
+description: 'YouTube formatter'
+core: 8.x
+package: Elyos
+dependencies:
+  - field
